@@ -1,0 +1,9 @@
+.logo {
+    background-color: black;
+    color: grey;
+    font-family: 'Inconsolata', monospace;
+}
+
+.cursor {
+    font-weight: bolder;
+}
