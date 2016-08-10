@@ -4,8 +4,27 @@
     font-family: 'Inconsolata', monospace;
 }
 
-.cursor {
+@-webkit-keyframes blink {
+    from {visibility: visible;}
+    to {visibility: hidden;}
+}
+
+@keyframes blink {
+    from {visibility: visible;}
+    to {visibility: hidden;}
+}
+
+cursor {
     font-weight: bolder;
+    color: white;
+    -webkit-animation-name: blink;
+    -webkit-animation-timing-function: steps(2,start);
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+    animation-name: blink;
+    animation-timing-function: steps(2,start);
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
 }
 
 img {
