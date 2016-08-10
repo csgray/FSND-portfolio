@@ -7,3 +7,7 @@
 .cursor {
     font-weight: bolder;
 }
+
+img {
+    max-width: 100%;
+}

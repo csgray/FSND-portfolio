@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Inconsolata">
-    <link rel="stylesheet" type="text/css" href="./css/custom.css"
+    <link rel="stylesheet" type="text/css" href="./css/custom.css">
 </head>
 <body>
 
@@ -25,7 +25,12 @@
     </header>
     <br>
     <div class="row">
-        <img class="col-xs-12" src="http://placekitten.com/800/200" alt="PLACE KITTEN!">
+        <picture class="col-xs-12">
+            <source srcset="http://placekitten.com/400/100" media="(max-width: 400px)">
+            <source srcset="http://placekitten.com/800/200" media="(max-width: 800px)">
+            <source srcset="http://placekitten.com/1600/400">
+            <img src="http://placekitten.com/800/200" alt="PLACE KITTEN!">
+        </picture>
     </div>
     <br> 
     <div class="row">
@@ -33,13 +38,33 @@
     </div>
     <br>
     <div class="row">
-        <img class="col-xs-6" src="http://placekitten.com/200/200" alt="PLACE KITTEN!">
-        <img class="col-xs-6" src="http://placekitten.com/200/200" alt="PLACE KITTEN!">
+        <picture class="col-xs-6">
+            <source srcset="http://placekitten.com/200/200" media="(max-width: 400px)">
+            <source srcset="http://placekitten.com/400/400" media="(max-width: 800px)">
+            <source srcset="http://placekitten.com/800/800">
+            <img src="http://placekitten.com/200/200" alt="PLACE KITTEN!">
+        </picture>
+        <picture class="col-xs-6">
+            <source srcset="http://placekitten.com/200/200" media="(max-width: 400px)">
+            <source srcset="http://placekitten.com/400/400" media="(max-width: 800px)">
+            <source srcset="http://placekitten.com/800/800">
+            <img src="http://placekitten.com/200/200" alt="PLACE KITTEN!">
+        </picture>
     </div>
     <br>
     <div class="row">
-        <img class="col-xs-6" src="http://placekitten.com/200/200" alt="PLACE KITTEN!">
-        <img class="col-xs-6" src="http://placekitten.com/200/200" alt="PLACE KITTEN!">
+        <picture class="col-xs-6">
+            <source srcset="http://placekitten.com/200/200" media="(max-width: 400px)">
+            <source srcset="http://placekitten.com/400/400" media="(max-width: 800px)">
+            <source srcset="http://placekitten.com/800/800">
+            <img src="http://placekitten.com/200/200" alt="PLACE KITTEN!">
+        </picture>
+        <picture class="col-xs-6">
+            <source srcset="http://placekitten.com/200/200" media="(max-width: 400px)">
+            <source srcset="http://placekitten.com/400/400" media="(max-width: 800px)">
+            <source srcset="http://placekitten.com/800/800">
+            <img src="http://placekitten.com/200/200" alt="PLACE KITTEN!">
+        </picture>
     </div>
 </div>
 
